@@ -2,8 +2,8 @@ var React = require('react');
 var Router = require('react-router');
 var Link = require('react-router').Link;
 
-var Main = React.createClass({
-    render: function () {
+class Main extends React.Component {
+    render() {
         return (
             <div>
                 <div className="brand">Kulinaria.pl</div>
@@ -54,6 +54,6 @@ var Main = React.createClass({
             </div>
         )
     }
-});
+};
 
 module.exports = Main;

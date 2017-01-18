@@ -1,7 +1,7 @@
 var React = require('react');
 
-var NotFound = React.createClass({
-    render: function() {
+class NotFound extends React.Component{
+    render() {
         return (
             <div className="row">
                 <div className="box">
@@ -20,6 +20,6 @@ var NotFound = React.createClass({
             </div>
         )
     }
-});
+};
 
 module.exports = NotFound;

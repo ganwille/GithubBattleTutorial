@@ -1,7 +1,7 @@
 var React = require('react');
 
-var Contact = React.createClass({
-    render: function () {
+class Contact extends React.Component{
+    render() {
         return (
             <div className="container">
 
@@ -75,6 +75,6 @@ var Contact = React.createClass({
             </div>
         )
     }
-});
+};
 
 module.exports = Contact;
