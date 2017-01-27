@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 
 class BlogPost extends React.Component {
     render() {
@@ -23,4 +23,4 @@ class BlogPost extends React.Component {
     }
 }
 
-module.exports = BlogPost
+export default BlogPost;
